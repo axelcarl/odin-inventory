@@ -1,0 +1,17 @@
+include layout 
+
+div(class='info-sec')
+  h2= place.name
+  h2 Update burger-spot?
+
+form(method="post" action=`${place.url}/update`)
+  label(for="name") Name:
+  input(type="text", name="name")
+  label(for="chain") Is it a chain:
+  input(type="checkbox", name="chain")
+  label(for="burgers") Quick add burgers:
+  select(class="multiple-select" name="burgers" multiple)
+    each burger in burgers 
+      option(value=burger.name)= burger.name
+  button Submit
+  a(href=`${place.url}/delete` class='del-button') Delete this burger spot

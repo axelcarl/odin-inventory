@@ -1,0 +1,225 @@
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  gap: 30px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #00B7FF;
+}
+
+.title h1{
+  margin-left: 40px;
+}
+
+.info-sec {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-container {
+  width: 100%;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.multiple-select {
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 1.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.multiple-select:focus{
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  height: 6rem;
+}
+
+.multiple-select::-ms-expand {
+  display: none;
+}
+
+.multiple-select option {
+  font-weight: normal;
+} 
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+input,
+select {
+  all: unset;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  appearance: none;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0.5rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+button {
+  all: unset;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  appearance: none;
+  display: block;
+  width: 20%;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0.5rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input:focus,
+button:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+button {
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+button:active {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+button:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.del-button {
+  all: unset;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  appearance: none;
+  display: block;
+  width: 20%;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0.5rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.del-button {
+  font-weight: bold;
+  color: #fff;
+  background-color: #b1343f;
+  border-color: #ac2c3d;
+}
+
+.del-button:hover {
+  color: #fff;
+  background-color: #440101;
+  border-color: #3f000e;
+}
+
+
+
+input[type="checkbox"] {
+  appearance: none;
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 0.25rem 0 0;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  vertical-align: middle;
+}
+
+input[type="checkbox"]:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+input[type="checkbox"]:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+input[type="checkbox"]:disabled {
+  background-color: #e9ecef;
+  border-color: #ced4da;
+}
+
+
+

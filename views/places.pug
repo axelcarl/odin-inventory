@@ -1,0 +1,22 @@
+include layout 
+
+form(method="post")
+  label(for="name") Name:
+  input(type="text", name="name")
+  label(for="chain") Is it a chain:
+  input(type="checkbox", name="chain")
+  label(for="burgers") Quick add burgers:
+  select(class="multiple-select" name="burgers" multiple)
+    each burger in burgers 
+      option(value=burger.name)= burger.name
+  button Submit
+
+div(class='info-sec')
+  h1 All Burger Spots
+  div
+    each place in places
+      div
+        a(href=place.url)= place.name
+      
+
+      

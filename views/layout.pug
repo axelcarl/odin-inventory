@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(class='header') 
+      a(href="/") Home 
+      a(href="/burger") Create a Burger 
+      a(href="/places") Create a Burger-spot
+    div(class='title')
+      h1= title
+    block content
+    
